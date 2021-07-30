@@ -1,0 +1,28 @@
+{
+  "name": "mmorpg",
+  "version": "0.0.1",
+  "private": true,
+  "description": "https://www.youtube.com/watch?v=EyNVeTzhC1w&list=PLBu9ivI-ujOFu7qkxPHxWhGgEKfSWLdVr&index=1",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --env=test",
+    "start": "node server.js --env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesPrenticez/mmorpg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesPrenticez/mmorpg/issues"
+  },
+  "homepage": "https://github.com/JamesPrenticez/mmorpg#readme",
+  "dependencies": {
+    "minimist": "*",
+    "extend": "*",
+    "binary-parser": "*",
+    "mongoose": "*",
+    "underscore": "*"
+  }
+}
